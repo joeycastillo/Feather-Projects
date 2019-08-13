@@ -28,6 +28,10 @@ Lessons learned: either I laid something out wrong here or I'm not skilled enoug
 
 Haven't assembled this one yet (I just ordered it yesterday) but the premise: improve Rev A by streamlining to just the BME280 for temperature, humidity and barometric pressure sensing. Isolate it on a thermal island. Update the GPS to the new [PA6H Ultimate GPS](https://www.adafruit.com/product/790), and add a spot for a flex cable to a [small Sharp Memory Display](https://www.digikey.com/product-detail/en/sharp-microelectronics/LS012B7DD01/425-2900-ND/5054063) so I can see the current conditions. I also added an LED on the Fix pin; not sure if I'll populate it since (hopefully) that data will be on the screen, but it's there as an option.
 
+### E-Book Feather Wing
+
+Rev A is in here but it has some issues. Rev B lives in [its own repository here](https://github.com/joeycastillo/The-Open-Book).
+
 ## BOM for these projects
 
 TODO.
