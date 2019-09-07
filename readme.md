@@ -16,14 +16,6 @@ Second board I ever designed: a FeatherWing with spots for an SD card, two envir
 
 Lessons learned: the temperature sensor needs to be more thermally isolated from the rest of the board. Also, the temperature readings on the BME280 and ADT7410 tracked each other pretty closely, so I realized I only needed one.
 
-### SAMD11 Feather Experiment (June 2, 2019)
-
-For the record, I regard this as a **failed** experiment, but the idea was to build a Feather yourself with hand-solderable and thru-hole parts.
-
-When I built this on a breadboard (with breakouts for the small surface mount components) it worked well enough; I was able to charge a battery, flash a bootloader onto the SAMD11 and make blinkenlights. But neither of my attempts to build this on a PCB yielded a working board; on one the voltage regulator actually exploded in a puff of white smoke.
-
-Lessons learned: either I laid something out wrong here or I'm not skilled enough to hand-solder the tiniest SMD components.
-
 ### Hiking Log Rev B (July 10, 2019)
 
 Haven't assembled this one yet (I just ordered it yesterday) but the premise: improve Rev A by streamlining to just the BME280 for temperature, humidity and barometric pressure sensing. Isolate it on a thermal island. Update the GPS to the new [PA6H Ultimate GPS](https://www.adafruit.com/product/790), and add a spot for a flex cable to a [small Sharp Memory Display](https://www.digikey.com/product-detail/en/sharp-microelectronics/LS012B7DD01/425-2900-ND/5054063) so I can see the current conditions. I also added an LED on the Fix pin; not sure if I'll populate it since (hopefully) that data will be on the screen, but it's there as an option.
