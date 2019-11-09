@@ -282,11 +282,11 @@ you must first invent the universe.''
 - Carl Sagan</text>
 <text x="38.735" y="8.128" size="0.8128" layer="22" font="vector" ratio="18" rot="SMR0" align="center-left">by joey castillo</text>
 <text x="30.226" y="13.716" size="0.508" layer="21" font="vector" align="top-left">A1-A4 can be analog comparator
-inputs, with IOA and IOB as AC
-outputs. Or they (and IOC) can
+inputs, with pins 5 &amp; 6 as AC
+outputs. Or they (&amp; pin 9) can
 be used as plain ol GPIO.
 All pins can be interrupt
-inputs. All but IOC can do
+inputs. All but 9 can do
 PWM. All but TX and RX 
 can do capacitive touch.</text>
 <text x="24.13" y="7.366" size="0.508" layer="21" font="vector" align="top-left">C5 filters power, C6 smooths out AREF. R5 
@@ -3310,7 +3310,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DESCRIPTION" value=" Cortex-M0+, 16KB FLASH, 4KB SRAM, USB - 24 QFN, INDUSTRIAL, GREEN, 1.6-3.6V, 48MHz/ QFN _ZA_ " x="27.686" y="10.16" size="0.6096" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Microchip" x="27.686" y="10.16" size="0.6096" layer="27" rot="R90" display="off"/>
 <attribute name="MP" value="ATSAMD11D14A-MUT" x="27.686" y="10.16" size="0.6096" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="29.441890625" y="7.517409375" size="0.508" layer="25" font="vector" ratio="18"/>
+<attribute name="NAME" x="24.361890625" y="12.343409375" size="0.508" layer="25" font="vector" ratio="18"/>
 <attribute name="PACKAGE" value="QFN-24 Microchip" x="27.686" y="10.16" size="0.6096" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="27.686" y="10.16" size="0.6096" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="31.6557" y="7.592059375" size="0.972340625" layer="27" rot="R90"/>
