@@ -5249,11 +5249,11 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="U$7" gate="G$1" x="93.98" y="55.88" smashed="yes">
 <attribute name="VALUE" x="92.456" y="53.34" size="1.27" layer="96"/>
 </instance>
-<instance part="SWCLK" gate="G$1" x="86.36" y="66.04" smashed="yes" rot="R90">
-<attribute name="TP_SIGNAL_NAME" x="87.63" y="68.58" size="1.778" layer="97" rot="R90"/>
+<instance part="SWCLK" gate="G$1" x="88.9" y="68.58" smashed="yes" rot="R90">
+<attribute name="TP_SIGNAL_NAME" x="90.17" y="71.12" size="1.778" layer="97" rot="R90"/>
 </instance>
-<instance part="SWDIO" gate="G$1" x="86.36" y="68.58" smashed="yes" rot="R90">
-<attribute name="TP_SIGNAL_NAME" x="87.63" y="71.12" size="1.778" layer="97" rot="R90"/>
+<instance part="SWDIO" gate="G$1" x="88.9" y="66.04" smashed="yes" rot="R90">
+<attribute name="TP_SIGNAL_NAME" x="90.17" y="68.58" size="1.778" layer="97" rot="R90"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="217.17" y="15.24" size="2.54" layer="94"/>
@@ -5879,10 +5879,10 @@ DIN A4, landscape with location and doc. field</description>
 </net>
 <net name="SWDIO" class="0">
 <segment>
-<wire x1="71.12" y1="68.58" x2="83.82" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="SWDIO" gate="G$1" pin="TP"/>
-<pinref part="IC1" gate="G$1" pin="PA30"/>
-<label x="73.66" y="68.58" size="1.778" layer="95"/>
+<wire x1="71.12" y1="66.04" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
+<label x="76.2" y="66.04" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="PA31"/>
 </segment>
 <segment>
 <label x="119.38" y="111.76" size="1.778" layer="95"/>
@@ -5892,10 +5892,10 @@ DIN A4, landscape with location and doc. field</description>
 </net>
 <net name="SWCLK" class="0">
 <segment>
-<wire x1="71.12" y1="66.04" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="SWCLK" gate="G$1" pin="TP"/>
-<pinref part="IC1" gate="G$1" pin="PA31"/>
-<label x="73.66" y="66.04" size="1.778" layer="95"/>
+<wire x1="71.12" y1="68.58" x2="86.36" y2="68.58" width="0.1524" layer="91"/>
+<label x="76.2" y="68.58" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="PA30"/>
 </segment>
 <segment>
 <wire x1="137.16" y1="109.22" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
