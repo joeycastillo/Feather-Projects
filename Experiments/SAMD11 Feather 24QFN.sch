@@ -5454,7 +5454,6 @@ DIN A4, landscape with location and doc. field</description>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="SW1" library="adafruit" deviceset="SPST_TACT" device="-KMR2" value="SPST_TACT-KMR2"/>
 <part name="SWCLK" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20R" package3d_urn="urn:adsk.eagle:package:27973/1"/>
-<part name="SWDIO" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20R" package3d_urn="urn:adsk.eagle:package:27973/1"/>
 <part name="FRAME1" library="My Stuff" deviceset="A4L-LOC" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="X2" library="microbuilder" deviceset="JTAG-CORTEX" device="BOXPOSTS" value="2x5 0.05&quot; SWD"/>
@@ -5499,6 +5498,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="FID1" library="microbuilder" deviceset="FIDUCIAL" device="_1MM"/>
 <part name="FID3" library="microbuilder" deviceset="FIDUCIAL" device="_1MM"/>
 <part name="FID4" library="microbuilder" deviceset="FIDUCIAL" device="_1MM"/>
+<part name="SWDIO" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TPSQ" device="TP20R" package3d_urn="urn:adsk.eagle:package:27973/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -5581,10 +5581,7 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="NAME" x="124.46" y="163.83" size="1.778" layer="95"/>
 <attribute name="VALUE" x="125.73" y="156.845" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="SWCLK" gate="G$1" x="86.36" y="71.12" smashed="yes" rot="R90">
-<attribute name="TP_SIGNAL_NAME" x="87.63" y="73.66" size="1.778" layer="97" rot="R90"/>
-</instance>
-<instance part="SWDIO" gate="G$1" x="86.36" y="73.66" smashed="yes" rot="R90">
+<instance part="SWCLK" gate="G$1" x="86.36" y="73.66" smashed="yes" rot="R90">
 <attribute name="TP_SIGNAL_NAME" x="87.63" y="76.2" size="1.778" layer="97" rot="R90"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -5731,6 +5728,9 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="FID1" gate="G$1" x="307.34" y="58.42" smashed="yes"/>
 <instance part="FID3" gate="G$1" x="302.26" y="58.42" smashed="yes"/>
 <instance part="FID4" gate="G$1" x="297.18" y="58.42" smashed="yes"/>
+<instance part="SWDIO" gate="G$1" x="86.36" y="71.12" smashed="yes" rot="R90">
+<attribute name="TP_SIGNAL_NAME" x="87.63" y="73.66" size="1.778" layer="97" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6246,10 +6246,10 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="X2" gate="G$1" pin="SWDIO"/>
 </segment>
 <segment>
-<wire x1="71.12" y1="73.66" x2="83.82" y2="73.66" width="0.1524" layer="91"/>
-<label x="73.66" y="73.66" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="PA30"/>
+<wire x1="71.12" y1="71.12" x2="83.82" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="SWDIO" gate="G$1" pin="TP"/>
+<pinref part="IC1" gate="G$1" pin="PA31"/>
+<label x="73.66" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
@@ -6260,10 +6260,10 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="71.12" y1="71.12" x2="83.82" y2="71.12" width="0.1524" layer="91"/>
-<label x="73.66" y="71.12" size="1.778" layer="95"/>
-<pinref part="IC1" gate="G$1" pin="PA31"/>
+<label x="73.66" y="73.66" size="1.778" layer="95"/>
 <pinref part="SWCLK" gate="G$1" pin="TP"/>
+<pinref part="IC1" gate="G$1" pin="PA30"/>
+<wire x1="71.12" y1="73.66" x2="83.82" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VHI" class="1">
