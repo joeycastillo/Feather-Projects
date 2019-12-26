@@ -8,6 +8,8 @@ Matrix design kind of started from their passive matrix, but I expanded it and r
 
 # Self-Capacitance Slider Wing
 
+![slider board image](/Experiments/Cap%20Touch%20Experiments/images/CAPT-A1-01.png)
+
 The slider wing should "just work" with [Adafruit FreeTouch](https://github.com/adafruit/Adafruit_FreeTouch) on the following boards:
 
 * [Feather M0](https://www.adafruit.com/product/2772)
@@ -20,6 +22,8 @@ The slider wing should "just work" with [Adafruit FreeTouch](https://github.com/
 I'd love to get it working with the SAMD51-based [Feather M4 Express](https://www.adafruit.com/product/3857) but there's currently no open source support for the PTC on that board. If you want to hack on this, this slider might be an ideal testbed for that. (note that one of the segments is on a non-PTC line, so you would get a slightly shorter slider on the M4)
 
 # Mutual Capacitance Matrix Shield
+
+![matrix board image](/Experiments/Cap%20Touch%20Experiments/images/CAPT-B1-01.png)
 
 This board is kind of the opposite of "should just work". It's intended to work with the [Metro M0](https://www.adafruit.com/product/3505), but FreeTouch currently doesn't support mutual capacitance modes; I made this board so I could try hack on that. Also note that this shield kind of takes over almost all of your board's pins: it uses all of the analog pins and all but one of the digital pins, which isn't terribly convenient unless you're stacking with an SPI- or I2C-only shield.
 
