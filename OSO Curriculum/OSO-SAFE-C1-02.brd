@@ -266,18 +266,18 @@ more wings; use as SPI/UART
 <text x="49.022" y="16.256" size="0.8128" layer="22" font="vector" ratio="18" distance="30" rot="SMR270" align="center">Road to
 the Book
 #4</text>
-<text x="9.906" y="21.59" size="0.8128" layer="22" font="vector" ratio="18" rot="MR180" align="center">OSO-SAFE-C1-01</text>
-<rectangle x1="0.254" y1="1.27" x2="10.414" y2="21.59" layer="43"/>
+<text x="9.906" y="21.59" size="0.8128" layer="22" font="vector" ratio="18" rot="MR180" align="center">OSO-SAFE-C1-02</text>
+<rectangle x1="0" y1="2.54" x2="10.16" y2="22.86" layer="43"/>
 <text x="25.527" y="21.59" size="0.635" layer="21" font="vector" ratio="12" rot="R90" align="center">SWCL</text>
 <text x="25.527" y="1.27" size="0.635" layer="21" font="vector" ratio="12" rot="R90" align="center">PA07</text>
-<text x="6.477" y="16.51" size="0.635" layer="21" font="vector" ratio="18" rot="R270" align="center">VBUS</text>
-<text x="6.477" y="13.97" size="0.635" layer="21" font="vector" ratio="18" rot="R270" align="center">D-</text>
-<text x="6.477" y="11.43" size="0.635" layer="21" font="vector" ratio="18" rot="R270" align="center">D+</text>
-<text x="6.477" y="6.35" size="0.635" layer="21" font="vector" ratio="18" rot="R270" align="center">GND</text>
-<text x="10.795" y="16.51" size="0.635" layer="22" font="vector" ratio="18" rot="SMR270" align="center">VBUS</text>
-<text x="10.795" y="13.97" size="0.635" layer="22" font="vector" ratio="18" rot="SMR270" align="center">D-</text>
-<text x="10.795" y="11.43" size="0.635" layer="22" font="vector" ratio="18" rot="SMR270" align="center">D+</text>
-<text x="10.795" y="6.35" size="0.635" layer="22" font="vector" ratio="18" rot="SMR270" align="center">GND</text>
+<text x="6.223" y="17.78" size="0.635" layer="21" font="vector" ratio="18" rot="R270" align="center">VBUS</text>
+<text x="6.223" y="15.24" size="0.635" layer="21" font="vector" ratio="18" rot="R270" align="center">D-</text>
+<text x="6.223" y="12.7" size="0.635" layer="21" font="vector" ratio="18" rot="R270" align="center">D+</text>
+<text x="6.223" y="7.62" size="0.635" layer="21" font="vector" ratio="18" rot="R270" align="center">GND</text>
+<text x="10.541" y="17.78" size="0.635" layer="22" font="vector" ratio="18" rot="SMR270" align="center">VBUS</text>
+<text x="10.541" y="15.24" size="0.635" layer="22" font="vector" ratio="18" rot="SMR270" align="center">D-</text>
+<text x="10.541" y="12.7" size="0.635" layer="22" font="vector" ratio="18" rot="SMR270" align="center">D+</text>
+<text x="10.541" y="7.62" size="0.635" layer="22" font="vector" ratio="18" rot="SMR270" align="center">GND</text>
 <text x="26.416" y="20.574" size="0.6096" layer="22" font="vector" ratio="12" rot="SMR270" align="center-left">PA30/SWCLK</text>
 <text x="29.21" y="20.574" size="0.6096" layer="22" font="vector" ratio="12" rot="SMR270" align="center-left">PA08</text>
 <text x="31.75" y="20.574" size="0.6096" layer="22" font="vector" ratio="12" rot="SMR270" align="center-left">PA09</text>
@@ -301,7 +301,7 @@ the Book
 <wire x1="35.687" y1="12.319" x2="36.322" y2="11.684" width="0.254" layer="22"/>
 <wire x1="37.465" y1="10.541" x2="39.116" y2="8.89" width="0.254" layer="22"/>
 <wire x1="39.116" y1="8.89" x2="39.116" y2="4.445" width="0.254" layer="22"/>
-<wire x1="39.497" y1="7.493" x2="41.656" y2="5.334" width="0.254" layer="22"/>
+<wire x1="39.624" y1="7.366" x2="41.656" y2="5.334" width="0.254" layer="22"/>
 <wire x1="41.656" y1="5.334" x2="41.656" y2="4.445" width="0.254" layer="22"/>
 <text x="16.51" y="20.574" size="0.6096" layer="22" font="vector" ratio="12" rot="SMR270" align="center-left">VBAT
 (NC)</text>
@@ -3856,8 +3856,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="14.2494" y="3.81" size="0.508" layer="51" font="vector" ratio="18" rot="SR0"/>
 <attribute name="VENDOR" value="Texas Instruments" x="12.446" y="11.43" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="USB" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="8.636" y="11.43" smashed="yes" rot="R270">
-<attribute name="VALUE" x="5.461" y="17.78" size="1.27" layer="27" rot="R270"/>
+<element name="USB" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="8.382" y="12.7" smashed="yes" rot="R270">
+<attribute name="VALUE" x="5.207" y="19.05" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R2" library="adafruit" package="0207/9" value="1K" x="24.892" y="14.732" smashed="yes" rot="R270">
 <attribute name="NAME" x="25.4" y="17.272" size="0.508" layer="25" font="vector" ratio="18" rot="R270" align="center"/>
@@ -3943,8 +3943,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C1" pad="1"/>
 <contactref element="R1" pad="2"/>
 <wire x1="13.462" y1="11.43" x2="17.018" y2="14.986" width="0.3048" layer="16"/>
-<wire x1="11.938" y1="14.986" x2="10.414" y2="16.51" width="0.3048" layer="1"/>
-<wire x1="10.414" y1="16.51" x2="8.636" y2="16.51" width="0.3048" layer="1"/>
+<wire x1="11.938" y1="14.986" x2="9.144" y2="17.78" width="0.3048" layer="1"/>
+<wire x1="9.144" y1="17.78" x2="8.382" y2="17.78" width="0.3048" layer="1"/>
 <wire x1="11.938" y1="14.986" x2="17.018" y2="14.986" width="0.3048" layer="1"/>
 <wire x1="21.59" y1="21.59" x2="21.59" y2="19.558" width="0.3048" layer="1"/>
 <wire x1="21.59" y1="19.558" x2="17.018" y2="14.986" width="0.3048" layer="1"/>
@@ -4126,21 +4126,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="USB_P">
 <contactref element="U2" pad="15"/>
-<wire x1="35.4584" y1="12.827" x2="23.2664" y2="12.827" width="0.254" layer="1"/>
-<wire x1="23.2664" y1="12.827" x2="22.7748375" y2="13.3185625" width="0.254" layer="1"/>
-<wire x1="10.414" y1="11.43" x2="12.3025625" y2="13.3185625" width="0.254" layer="1"/>
-<wire x1="12.3025625" y1="13.3185625" x2="22.7748375" y2="13.3185625" width="0.254" layer="1"/>
+<wire x1="35.4584" y1="12.827" x2="34.4424" y2="12.827" width="0.254" layer="1"/>
+<wire x1="34.4424" y1="12.827" x2="33.9508375" y2="13.3185625" width="0.254" layer="1"/>
+<wire x1="10.16" y1="12.7" x2="10.7785625" y2="13.3185625" width="0.254" layer="1"/>
+<wire x1="10.7785625" y1="13.3185625" x2="33.9508375" y2="13.3185625" width="0.254" layer="1"/>
 <contactref element="USB" pad="3"/>
-<wire x1="8.636" y1="11.43" x2="10.414" y2="11.43" width="0.254" layer="1"/>
+<wire x1="8.382" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="1"/>
 </signal>
 <signal name="USB_N">
 <contactref element="U2" pad="14"/>
-<wire x1="28.8544" y1="14.097" x2="35.4584" y2="14.097" width="0.254" layer="1"/>
-<wire x1="27.7114" y1="15.24" x2="28.8544" y2="14.097" width="0.254" layer="1"/>
-<wire x1="23.955384375" y1="15.24" x2="27.7114" y2="15.24" width="0.254" layer="1"/>
-<wire x1="22.685384375" y1="13.97" x2="23.955384375" y2="15.24" width="0.254" layer="1"/>
 <contactref element="USB" pad="2"/>
-<wire x1="8.636" y1="13.97" x2="22.685384375" y2="13.97" width="0.254" layer="1"/>
+<wire x1="11.049" y1="14.097" x2="9.906" y2="15.24" width="0.254" layer="1"/>
+<wire x1="8.382" y1="15.24" x2="9.906" y2="15.24" width="0.254" layer="1"/>
+<wire x1="35.4584" y1="14.097" x2="11.049" y2="14.097" width="0.254" layer="1"/>
 </signal>
 <signal name="PA05">
 <contactref element="U2" pad="1"/>
