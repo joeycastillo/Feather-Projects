@@ -9,31 +9,31 @@
 <grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="yes"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="yes"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="yes"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="yes"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="yes"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="yes"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="yes"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="yes"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="yes"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="yes"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="yes"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -47,9 +47,9 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -1671,11 +1671,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PROD_ID" value="DIO-13722" x="3.556" y="6.35" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="5.30225" y="6.35" size="0.508" layer="28" font="vector" ratio="18" rot="MR90" align="center"/>
 </element>
-<element name="R2" library="microbuilder" package="0805-NO" value="TBD" x="8.636" y="7.366" smashed="yes" rot="R180">
+<element name="R2" library="microbuilder" package="0805-NO" value="220" x="8.636" y="7.366" smashed="yes" rot="R180">
 <attribute name="NAME" x="10.668" y="7.366" size="0.508" layer="25" font="vector" ratio="18" rot="R270" align="center"/>
 <attribute name="VALUE" x="6.604" y="8.128" size="0.508" layer="27" font="vector" ratio="18" rot="R180" align="center"/>
 </element>
-<element name="R4" library="microbuilder" package="0805-NO" value="TBD" x="8.636" y="5.334" smashed="yes" rot="R180">
+<element name="R4" library="microbuilder" package="0805-NO" value="120" x="8.636" y="5.334" smashed="yes" rot="R180">
 <attribute name="NAME" x="10.668" y="5.334" size="0.508" layer="25" font="vector" ratio="18" rot="R270" align="center"/>
 <attribute name="VALUE" x="6.604" y="6.096" size="0.508" layer="27" font="vector" ratio="18" rot="R180" align="center"/>
 </element>
