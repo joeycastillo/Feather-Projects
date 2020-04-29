@@ -1488,11 +1488,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="U$4" library="microbuilder" deviceset="AVCC" device=""/>
 <part name="U$5" library="microbuilder" deviceset="AVCC" device=""/>
-<part name="D1" library="My Stuff" deviceset="SUNLED_DUAL_RED_IR" device="SMD1" value="XZM2CRKM2DGFBB45SCCB"/>
+<part name="D1" library="My Stuff" deviceset="SUNLED_DUAL_RED_IR" device="SMD1" value="XZM2MRTNI45SC2C"/>
 <part name="R2" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="220"/>
 <part name="R4" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="120"/>
 <part name="U$7" library="microbuilder" deviceset="GND" device=""/>
-<part name="U1" library="SparkFun-Sensors" deviceset="LIGHT_SENSOR" device="1206"/>
+<part name="U1" library="SparkFun-Sensors" deviceset="LIGHT_SENSOR" device="1206" value="PT15-21C"/>
 <part name="U$8" library="microbuilder" deviceset="GND" device=""/>
 <part name="J1" library="SM03B-SRSS-TB_LF__SN_-2" deviceset="SM03B-SRSS-TB(LF)(SN)" device=""/>
 <part name="U$9" library="microbuilder" deviceset="GND" device=""/>

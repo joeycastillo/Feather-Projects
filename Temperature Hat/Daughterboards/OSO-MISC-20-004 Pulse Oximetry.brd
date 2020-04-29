@@ -1666,7 +1666,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="11.049" y="9.906" size="0.508" layer="25" font="vector" ratio="18" rot="R270" align="center"/>
 <attribute name="VALUE" x="6.604" y="10.668" size="0.508" layer="27" font="vector" ratio="18" rot="R180" align="center"/>
 </element>
-<element name="D1" library="My Stuff" package="PLCC4SMDLED" value="XZM2CRKM2DGFBB45SCCB" x="3.556" y="6.35" smashed="yes" rot="MR270">
+<element name="D1" library="My Stuff" package="PLCC4SMDLED" value="XZM2MRTNI45SC2C" x="3.556" y="6.35" smashed="yes" rot="MR270">
 <attribute name="NAME" x="1.80975" y="6.35" size="0.508" layer="26" font="vector" ratio="18" rot="MR270" align="center"/>
 <attribute name="PROD_ID" value="DIO-13722" x="3.556" y="6.35" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="5.30225" y="6.35" size="0.508" layer="28" font="vector" ratio="18" rot="MR90" align="center"/>
@@ -1679,7 +1679,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="10.668" y="5.334" size="0.508" layer="25" font="vector" ratio="18" rot="R270" align="center"/>
 <attribute name="VALUE" x="6.604" y="6.096" size="0.508" layer="27" font="vector" ratio="18" rot="R180" align="center"/>
 </element>
-<element name="U1" library="SparkFun-Sensors" package="LED-1206" value="LIGHT_SENSOR1206" x="6.35" y="6.604" smashed="yes" rot="MR90">
+<element name="U1" library="SparkFun-Sensors" package="LED-1206" value="PT15-21C" x="6.35" y="6.604" smashed="yes" rot="MR90">
 <attribute name="NAME" x="7.5565" y="6.604" size="0.508" layer="26" font="vector" ratio="18" rot="MR90" align="center"/>
 <attribute name="VALUE" x="5.3975" y="6.604" size="0.508" layer="28" font="vector" ratio="18" rot="MR90" align="center"/>
 </element>
