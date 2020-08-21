@@ -1,0 +1,12 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"BOM";
+"4";"";"DISP_SEGMENT_STARBURST_DUAL_COMMONCATHODE";"SEGMENT_STARTBUST_DUAL_KWA-541CBB";"LED1, LED2, LED3, LED4";"2 x Starburst Segment Displays - Common Cathode";"";
+"1";"";"HT16K33_SOP28_SKINNY";"SOP28_300MIL_SKINNY";"U2";"";"";
+"2";"";"PINHD-1X5/90";"1X05/90";"JP1, JP2";"PIN HEADER";"";
+"3";"";"SOLDERJUMPERREFLOW_NOPASTE";"SOLDERJUMPER_REFLOW_NOPASTE";"A0, A1, A2";"SMD Solder JUMPER";"";
+"1";"";"SOLDERJUMPER_2WAY";"SOLDERJUMPER_2WAY_OPEN_NOPASTE";"SJ1";"2-Way Solder Jumper";"";
+"3";"10uF";"CAP_CERAMIC0805-NOOUTLINE";"0805-NO";"C1, C2, C3";"Ceramic Capacitors";"";
+"1";"1N4148";"DIODE_SOD-123FL";"SOD-123FL";"D1";"Diode";"";
+"3";"47K";"RESISTOR0805_NOOUTLINE";"0805-NO";"R1, R2, R3";"Resistors";"";
+"1";"47uF";"CAP_CERAMIC0805-NOOUTLINE";"0805-NO";"C4";"Ceramic Capacitors";"";
+"1";"AP2112-3.3";"VREG_SOT23-5";"SOT23-5";"U1";"SOT23-5 Fixed Voltage Regulators";"";
+"2";"FIDUCIAL""";"FIDUCIAL""";"FIDUCIAL_1MM";"U$1, U$2";"Fiducial Alignment Points";"EXCLUDE";
