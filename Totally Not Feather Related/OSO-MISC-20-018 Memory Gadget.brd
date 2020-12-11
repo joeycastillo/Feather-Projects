@@ -5002,6 +5002,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="37.084" y="-66.548" size="0.4064" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="U$16" library="My Stuff" package="OSO_WORDMARK_THREELINE_450MIL_1000DPI" value="" x="34.798" y="-16.256" smashed="yes"/>
+<element name="R9" library="microbuilder" package="0805-NO" value="100K" x="-8.89" y="-93.98" smashed="yes">
+<attribute name="NAME" x="-6.858" y="-94.107" size="0.8128" layer="25" ratio="18"/>
+<attribute name="VALUE" x="-6.858" y="-94.742" size="0.4064" layer="27" ratio="10"/>
+</element>
 </elements>
 <signals>
 <signal name="AVDD">
@@ -5260,9 +5264,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="19.078" y1="-60.371" x2="19.078" y2="-61.5" width="0.254" layer="1"/>
 <wire x1="19.078" y1="-61.5" x2="19.28285" y2="-61.70485" width="0.254" layer="1"/>
 <via x="19.28285" y="-61.70485" extent="1-16" drill="0.254"/>
-<wire x1="40.62285" y1="-53.83085" x2="27.15685" y2="-53.83085" width="0.254" layer="16"/>
-<wire x1="19.28285" y1="-61.70485" x2="27.15685" y2="-53.83085" width="0.254" layer="16"/>
-<wire x1="40.62285" y1="-53.83085" x2="41.402" y2="-54.61" width="0.254" layer="16"/>
+<wire x1="40.64825" y1="-53.85625" x2="27.13145" y2="-53.85625" width="0.254" layer="16"/>
+<wire x1="19.28285" y1="-61.70485" x2="27.13145" y2="-53.85625" width="0.254" layer="16"/>
+<wire x1="40.64825" y1="-53.85625" x2="41.402" y2="-54.61" width="0.254" layer="16"/>
 <via x="41.402" y="-54.61" extent="1-16" drill="0.254"/>
 <wire x1="41.402" y1="-54.61" x2="41.592" y2="-54.42" width="0.254" layer="1"/>
 <wire x1="41.592" y1="-54.42" x2="43.206" y2="-54.42" width="0.254" layer="1"/>
@@ -5699,6 +5703,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="7.112" y1="-42.926" x2="12.921" y2="-48.735" width="0.3048" layer="16"/>
 <via x="12.921" y="-48.735" extent="1-16" drill="0.3048"/>
 <wire x1="7.112" y1="-36.576" x2="7.112" y2="-42.926" width="0.3048" layer="16"/>
+<contactref element="R9" pad="2"/>
+<wire x1="11.872" y1="-49.784" x2="-7.94" y2="-93.98" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBUS" class="1">
 <contactref element="D1" pad="A"/>
@@ -5787,6 +5793,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U2" pad="3"/>
 <wire x1="4.528" y1="-12.192" x2="7.8781" y2="-12.192" width="0.3048" layer="1"/>
 <wire x1="7.8781" y1="-12.192" x2="14.1001" y2="-18.414" width="0.3048" layer="1"/>
+<contactref element="R9" pad="1"/>
+<wire x1="14.1001" y1="-18.414" x2="-9.84" y2="-93.98" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R6" pad="1"/>
@@ -5889,10 +5897,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="26.991" y1="-63.246" x2="27.118" y2="-63.373" width="0.254" layer="1"/>
 </signal>
 <signal name="FLASHMISO">
-<contactref element="IC3" pad="23"/>
 <contactref element="U3" pad="2"/>
-<wire x1="24.303" y1="-54.646" x2="28.4146" y2="-54.646" width="0.254" layer="1"/>
-<wire x1="28.4146" y1="-54.646" x2="28.448" y2="-54.6126" width="0.254" layer="1"/>
 <via x="28.448" y="-54.6126" extent="1-16" drill="0.254"/>
 <wire x1="28.448" y1="-54.6126" x2="28.956" y2="-55.1206" width="0.254" layer="16"/>
 <wire x1="28.956" y1="-63.5" x2="29.464" y2="-64.008" width="0.254" layer="16"/>
@@ -5900,6 +5905,24 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="29.464" y1="-64.008" x2="30.099" y2="-64.643" width="0.254" layer="1"/>
 <wire x1="30.099" y1="-64.643" x2="32.318" y2="-64.643" width="0.254" layer="1"/>
 <wire x1="28.956" y1="-55.1206" x2="28.956" y2="-63.5" width="0.254" layer="16"/>
+<contactref element="IC3" pad="27"/>
+<via x="24.5618" y="-49.53" extent="1-16" drill="0.254"/>
+<wire x1="22.578" y1="-53.421" x2="22.578" y2="-52.59834375" width="0.254" layer="1"/>
+<wire x1="22.578" y1="-52.59834375" x2="22.6314" y2="-52.54494375" width="0.254" layer="1"/>
+<wire x1="23.68045625" y1="-49.125" x2="24.17314375" y2="-49.125" width="0.254" layer="1"/>
+<wire x1="24.5618" y1="-49.53" x2="24.5618" y2="-49.51365625" width="0.254" layer="1"/>
+<wire x1="24.5618" y1="-49.51365625" x2="24.17314375" y2="-49.125" width="0.254" layer="1"/>
+<wire x1="22.6314" y1="-52.54494375" x2="22.6314" y2="-51.64648125" width="0.254" layer="1"/>
+<wire x1="22.6314" y1="-51.64648125" x2="22.4282" y2="-51.44328125" width="0.254" layer="1"/>
+<wire x1="22.4282" y1="-51.44328125" x2="22.4282" y2="-50.37725625" width="0.254" layer="1"/>
+<wire x1="22.4282" y1="-50.37725625" x2="23.68045625" y2="-49.125" width="0.254" layer="1"/>
+<wire x1="24.5618" y1="-49.53" x2="24.80755" y2="-49.53" width="0.254" layer="16"/>
+<wire x1="28.194" y1="-52.91645" x2="24.80755" y2="-49.53" width="0.254" layer="16"/>
+<wire x1="28.194" y1="-52.91645" x2="28.2194" y2="-52.91645" width="0.254" layer="16"/>
+<via x="28.2194" y="-52.91645" extent="1-16" drill="0.254"/>
+<wire x1="28.2194" y1="-52.91645" x2="28.321" y2="-53.01805" width="0.254" layer="1"/>
+<wire x1="28.321" y1="-53.01805" x2="28.321" y2="-54.4856" width="0.254" layer="1"/>
+<wire x1="28.321" y1="-54.4856" x2="28.448" y2="-54.6126" width="0.254" layer="1"/>
 </signal>
 <signal name="FLASHCS">
 <contactref element="IC3" pad="19"/>
