@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -4856,7 +4856,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="33.810475" y1="13.1333875" x2="26.011075" y2="13.1333875" width="0.1524" layer="1"/>
 <wire x1="33.810475" y1="13.1333875" x2="36.918" y2="16.2409125" width="0.1524" layer="1"/>
 </signal>
-<signal name="SEG8">
+<signal name="SEG3">
 <contactref element="U3" pad="20"/>
 <contactref element="U$6" pad="P$5"/>
 <via x="24.9936" y="7.4241375" extent="1-16" drill="0.3048"/>
@@ -4872,7 +4872,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="23.82886875" y1="11.98513125" x2="23.6146625" y2="12.1993375" width="0.1524" layer="1"/>
 <wire x1="22.5242" y1="13.2209375" x2="22.5242" y2="14.6258" width="0.1524" layer="1"/>
 </signal>
-<signal name="SEG7">
+<signal name="SEG2">
 <contactref element="U3" pad="19"/>
 <contactref element="U$6" pad="P$4"/>
 <wire x1="25.8318" y1="6.902" x2="24.4997375" y2="6.902" width="0.1524" layer="16"/>
@@ -4921,7 +4921,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="22.91446875" y1="10.24135625" x2="23.6728" y2="9.483025" width="0.1524" layer="1"/>
 <wire x1="23.6728" y1="9.483025" x2="23.6728" y2="5.75931875" width="0.1524" layer="1"/>
 </signal>
-<signal name="SEG2">
+<signal name="SEG4">
 <contactref element="U3" pad="24"/>
 <wire x1="23.248225" y1="13.2153375" x2="23.248225" y2="12.4787375" width="0.1524" layer="16"/>
 <wire x1="23.857825" y1="11.8691375" x2="23.248225" y2="12.4787375" width="0.1524" layer="16"/>
@@ -4935,7 +4935,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="25.8318" y1="9.402" x2="24.8263625" y2="9.402" width="0.1524" layer="16"/>
 <wire x1="24.8263625" y1="9.402" x2="23.857825" y2="10.3705375" width="0.1524" layer="16"/>
 </signal>
-<signal name="SEG3">
+<signal name="SEG5">
 <contactref element="U3" pad="25"/>
 <wire x1="25.8318" y1="9.902" x2="24.7581625" y2="9.902" width="0.1524" layer="16"/>
 <wire x1="24.7581625" y1="9.902" x2="24.391225" y2="10.2689375" width="0.1524" layer="16"/>
@@ -4948,7 +4948,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="38.118" y1="17.00985625" x2="38.118" y2="17.75" width="0.1524" layer="1"/>
 <wire x1="33.93673125" y1="12.8285875" x2="38.118" y2="17.00985625" width="0.1524" layer="1"/>
 </signal>
-<signal name="SEG4">
+<signal name="SEG6">
 <contactref element="U3" pad="26"/>
 <wire x1="24.9947625" y1="10.402" x2="24.975425" y2="10.4213375" width="0.1524" layer="16"/>
 <via x="24.975425" y="10.4213375" extent="1-16" drill="0.3048"/>
@@ -4961,7 +4961,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="39.318" y1="17.1727125" x2="38.0046875" y2="15.8594" width="0.1524" layer="1"/>
 <wire x1="34.0433375" y1="12.5041375" x2="37.3986" y2="15.8594" width="0.1524" layer="1"/>
 </signal>
-<signal name="SEG5">
+<signal name="SEG7">
 <contactref element="U3" pad="27"/>
 <via x="23.756225" y="12.7073375" extent="1-16" drill="0.3048"/>
 <wire x1="23.756225" y1="12.7073375" x2="23.756225" y2="12.6057375" width="0.1524" layer="16"/>
@@ -4978,7 +4978,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="26.162" y1="17.706" x2="26.162" y2="16.0274" width="0.1524" layer="1"/>
 <wire x1="26.162" y1="16.0274" x2="23.7942" y2="13.6596" width="0.1524" layer="1"/>
 </signal>
-<signal name="SEG6">
+<signal name="SEG8">
 <contactref element="U3" pad="28"/>
 <via x="24.467425" y="12.6311375" extent="1-16" drill="0.3048"/>
 <wire x1="24.467425" y1="12.6311375" x2="24.467425" y2="11.9017625" width="0.1524" layer="16"/>
